@@ -1,0 +1,53 @@
+canvas#canvas_image, canvas#canvas_ascii, pre#pre_art{
+  margin : 5px ;
+  border : 1px solid black ;
+}
+canvas#canvas_image{
+}
+canvas#canvas_ascii{
+  display : none ;
+}
+img#img_source{
+}
+pre#pre_art{
+  background : black ;
+  color  : white ;
+  text-align : left ;
+  font-weight : strong ;
+  padding : 0px ;
+}
+div.div_tab {
+  width : 100% ;
+  display : table ;
+}
+div.div_row { display : table-row  ; }
+div.div_cell{
+  display : table-cell ;
+  text-align : center ;
+  vertical-align : middle ;
+}
+textarea#textarea_source{
+  width  : 750px ;
+  height : 200px ;
+  margin : auto ;
+}
+th.header_1, th.header_2{
+  text-align : center ;
+  color : white ;
+  background : black ;
+  font : Arial , sans-serif ;
+  font-weight : strong ;
+}
+td.ascii{
+  text-align : center ;
+  padding : 0px ;
+}
+table{
+  border-collapse : collapse ;
+  width : 750px ;
+  margin : auto ;
+}
+img{
+  margin : 0px ;
+}
+
