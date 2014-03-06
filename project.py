@@ -1,6 +1,6 @@
 from project_module import project_object, image_object, link_object, challenge_object
 
-p = project_object('ascii_art')
+p = project_object('ascii_art', 'ASCII art generator')
 p.domain = 'http://www.aidansean.com/'
 p.path = 'apollo'
 p.preview_image_ = image_object('http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg', 408, 287)
@@ -28,7 +28,3 @@ p.challenges.append(challenge_object('The versatility of the tool is limited by 
 p.challenges.append(challenge_object('In textual output, the font spacing requires tweaks depending on the browser used.', 'Edit the CSS to ensure consistent display of text between different clients.', 'To be done'))
 
 p.challenges.append(challenge_object('For large images and large character sets the processing can cause the browser to freeze up and issues warnings.', 'The processing is split into "spurts" which consist of a fixed number of steps each.  The <code>window.setTimeout</code> method is used to moderate the CPU load.', 'Resolved'))
-
-
-print p.wordpress_text()
-

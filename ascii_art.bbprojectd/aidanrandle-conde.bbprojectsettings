@@ -4,14 +4,55 @@
 <dict>
 	<key>EmbeddedEditorHidden:aidanrandle-conde</key>
 	<false/>
-	<key>ExpandedEditorWidth:aidanrandle-conde:displays([(0, 0), (1680, 1050)])</key>
-	<integer>850</integer>
+	<key>ExpandedEditorWidth:aidanrandle-conde:displays([(0, 0), (1680, 1050)]:[(1680, 0), (1920, 1080)])</key>
+	<integer>695</integer>
 	<key>ExpandedItems:aidanrandle-conde</key>
 	<array/>
 	<key>FileFilterMode:aidanrandle-conde</key>
 	<integer>0</integer>
 	<key>OpenDocuments:aidanrandle-conde</key>
-	<array/>
+	<array>
+		<dict>
+			<key>BookmarkData</key>
+			<data>
+			Ym9vawgEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAA+AIAAAUAAAABAQAAVXNlcnMAAAARAAAAAQEAAGFp
+			ZGFucmFuZGxlLWNvbmRlAAAACAAAAAEBAABQcm9qZWN0cw0AAAAB
+			AQAAcHJvamVjdHNfZGF0YQAAAAkAAAABAQAAYXNjaWlfYXJ0AAAA
+			FAAAAAEBAABwcm9qZWN0X2FzY2lpX2FydC5weRgAAAABBgAABAAA
+			ABQAAAAwAAAAQAAAAFgAAABsAAAACAAAAAQDAADpEAIAAAAAAAgA
+			AAAEAwAAqMMFAAAAAAAIAAAABAMAABuRqAEAAAAACAAAAAQDAAAa
+			magBAAAAAAgAAAAEAwAAQcuoAQAAAAAIAAAABAMAAM/DqAEAAAAA
+			GAAAAAEGAACoAAAAuAAAAMgAAADYAAAA6AAAAPgAAAAIAAAAAAQA
+			AEG4x9P7AAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAA
+			AAAAAAAAAQUAAAQAAAADAwAAAQAAAAQAAAADAwAABAAAAAQAAAAD
+			AwAA9QEAAAwAAAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAAIIg9
+			OgAAAAgAAAAABAAAQbbvkdoAAAAkAAAAAQEAADVDREZDNEU2LTIx
+			QzQtM0JDRC04RUJGLTM1OTIwRjg4NDA4RRgAAAABAgAAgQAAAAEA
+			CADvFwAAAQAIAAAAAAAAAAAAAQAAAAEBAAAvAAAA3wAAAAECAABi
+			Yzc2NzE2ZDA4NTUwZTcxNmM4ZDM3MWUyOWNiNmZjNTMwMGVmYjU1
+			OzAwMDAwMDAwOzAwMDAwMDAwOzAwMDAwMDAwMDAwMDAwMjA7Y29t
+			LmFwcGxlLmFwcC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAwMDE7
+			MDEwMDAwMDE7MDAwMDAwMDAwMWE4YzNjZjsvdXNlcnMvYWlkYW5y
+			YW5kbGUtY29uZGUvcHJvamVjdHMvcHJvamVjdHNfZGF0YS9hc2Np
+			aV9hcnQvcHJvamVjdF9hc2NpaV9hcnQucHkAANgAAAD+////AQAA
+			AAAAAAARAAAABBAAAIgAAAAAAAAABRAAAAgBAAAAAAAAEBAAADgB
+			AAAAAAAAQBAAACgBAAAAAAAAVRAAAGABAAAAAAAAVhAAAFgBAAAA
+			AAAAAiAAAAQCAAAAAAAAECAAAIQBAAAAAAAAESAAALgBAAAAAAAA
+			EiAAAJgBAAAAAAAAEyAAAKgBAAAAAAAAICAAAOQBAAAAAAAAMCAA
+			AFgBAAAAAAAAAcAAAGwBAAAAAAAAEcAAABQAAAAAAAAAEsAAAHgB
+			AAAAAAAAgPAAABACAAAAAAAA
+			</data>
+			<key>FileURL</key>
+			<string>file://localhost/Users/aidanrandle-conde/Projects/projects_data/ascii_art/project_ascii_art.py</string>
+			<key>RelativePath</key>
+			<string>./project_ascii_art.py</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
 	<key>OpenDocumentsExpanded</key>
 	<true/>
 	<key>OpenDocumentsVisible</key>
@@ -19,7 +60,55 @@
 	<key>ProjectViewVisible</key>
 	<true/>
 	<key>RecentItems:aidanrandle-conde</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Date</key>
+			<date>2014-03-06T18:07:30Z</date>
+			<key>Location</key>
+			<dict>
+				<key>BookmarkData</key>
+				<data>
+				Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAA7AIAAAUAAAABAQAAVXNlcnMA
+				AAARAAAAAQEAAGFpZGFucmFuZGxlLWNvbmRlAAAACAAA
+				AAEBAABQcm9qZWN0cw0AAAABAQAAcHJvamVjdHNfZGF0
+				YQAAAAkAAAABAQAAYXNjaWlfYXJ0AAAAFAAAAAEBAABw
+				cm9qZWN0X2FzY2lpX2FydC5weRgAAAABBgAABAAAABQA
+				AAAwAAAAQAAAAFgAAABsAAAACAAAAAQDAADpEAIAAAAA
+				AAgAAAAEAwAAqMMFAAAAAAAIAAAABAMAABuRqAEAAAAA
+				CAAAAAQDAAAamagBAAAAAAgAAAAEAwAAQcuoAQAAAAAI
+				AAAABAMAAM/DqAEAAAAAGAAAAAEGAACoAAAAuAAAAMgA
+				AADYAAAA6AAAAPgAAAAIAAAAAAQAAEG4x9P7AAAAGAAA
+				AAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAEAAAA
+				AwMAAAQAAAAEAAAAAwMAAPUBAAAMAAAAAQEAAE1hY2lu
+				dG9zaCBIRAgAAAAEAwAAACCIPToAAAAIAAAAAAQAAEG2
+				75HaAAAAJAAAAAEBAAA1Q0RGQzRFNi0yMUM0LTNCQ0Qt
+				OEVCRi0zNTkyMEY4ODQwOEUYAAAAAQIAAIEAAAABAAgA
+				7xcAAAEACAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAAB
+				BQAA3wAAAAECAABiYzc2NzE2ZDA4NTUwZTcxNmM4ZDM3
+				MWUyOWNiNmZjNTMwMGVmYjU1OzAwMDAwMDAwOzAwMDAw
+				MDAwOzAwMDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+				cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAwMDE7MDEw
+				MDAwMDE7MDAwMDAwMDAwMWE4YzNjZjsvdXNlcnMvYWlk
+				YW5yYW5kbGUtY29uZGUvcHJvamVjdHMvcHJvamVjdHNf
+				ZGF0YS9hc2NpaV9hcnQvcHJvamVjdF9hc2NpaV9hcnQu
+				cHkAAMAAAAD+////AQAAAAAAAAAPAAAABBAAAIgAAAAA
+				AAAABRAAAAgBAAAAAAAAEBAAADgBAAAAAAAAQBAAACgB
+				AAAAAAAAAiAAAPABAAAAAAAAECAAAHABAAAAAAAAESAA
+				AKQBAAAAAAAAEiAAAIQBAAAAAAAAEyAAAJQBAAAAAAAA
+				ICAAANABAAAAAAAAMCAAAPwBAAAAAAAAAcAAAFgBAAAA
+				AAAAEcAAABQAAAAAAAAAEsAAAGQBAAAAAAAAgPAAAAQC
+				AAAAAAAA
+				</data>
+				<key>FileURL</key>
+				<string>file://localhost/Users/aidanrandle-conde/Projects/projects_data/ascii_art/project_ascii_art.py</string>
+				<key>TypeID</key>
+				<string>_CFileLocator</string>
+				<key>Version</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+	</array>
 	<key>RecentItemsExpanded</key>
 	<true/>
 	<key>RecentItemsVisible</key>
@@ -33,8 +122,8 @@
 	<key>ToolbarVisible:aidanrandle-conde</key>
 	<true/>
 	<key>ViewSplitterPosition:aidanrandle-conde</key>
-	<real>0.18286813795566559</real>
-	<key>WindowFrame:aidanrandle-conde:displays([(0, 0), (1680, 1050)])</key>
-	<string>rect(88,44,996,1083)</string>
+	<real>0.18256773054599762</real>
+	<key>WindowFrame:aidanrandle-conde:displays([(0, 0), (1680, 1050)]:[(1680, 0), (1920, 1080)])</key>
+	<string>rect(110,66,996,915)</string>
 </dict>
 </plist>
