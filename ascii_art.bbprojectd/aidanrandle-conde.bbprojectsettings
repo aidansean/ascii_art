@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EmbeddedEditorHidden:aidanrandle-conde</key>
+	<false/>
+	<key>ExpandedEditorWidth:aidanrandle-conde:displays([(0, 0), (1680, 1050)])</key>
+	<integer>850</integer>
+	<key>ExpandedItems:aidanrandle-conde</key>
+	<array/>
+	<key>FileFilterMode:aidanrandle-conde</key>
+	<integer>0</integer>
+	<key>OpenDocuments:aidanrandle-conde</key>
+	<array/>
+	<key>OpenDocumentsExpanded</key>
+	<true/>
+	<key>OpenDocumentsVisible</key>
+	<true/>
+	<key>ProjectViewVisible</key>
+	<true/>
+	<key>RecentItems:aidanrandle-conde</key>
+	<array/>
+	<key>RecentItemsExpanded</key>
+	<true/>
+	<key>RecentItemsVisible</key>
+	<true/>
+	<key>ScratchpadItemsExpanded</key>
+	<true/>
+	<key>ScratchpadItemsVisible</key>
+	<true/>
+	<key>ShowSCMData:aidanrandle-conde</key>
+	<false/>
+	<key>ToolbarVisible:aidanrandle-conde</key>
+	<true/>
+	<key>ViewSplitterPosition:aidanrandle-conde</key>
+	<real>0.18286813795566559</real>
+	<key>WindowFrame:aidanrandle-conde:displays([(0, 0), (1680, 1050)])</key>
+	<string>rect(88,44,996,1083)</string>
+</dict>
+</plist>

@@ -4,7 +4,7 @@ p = project_object('ascii_art')
 p.domain = 'http://www.aidansean.com/'
 p.path = 'apollo'
 p.preview_image_ = image_object('http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg', 408, 287)
-p.github_repo_name = 'apollonian'
+p.github_repo_name = 'apollo'
 p.mathjax = True
 p.links.append(link_object(p.domain, 'ascii_art/', 'Live page'))
 p.introduction = 'After talking to a friend who suggested I write a text based adventure game I decided could use a way to generate graphics that could be displayed as text.  To achieve this I used the HTML canvas to analyse images and comapared the distribution of colours with various characters, providing graphical, textual, and HTML outputs.'
