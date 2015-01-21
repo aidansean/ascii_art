@@ -5,7 +5,7 @@ After talking to a friend who suggested I write a text based adventure game I de
 <h3>Links</h3>
 
 <a href="http://www.aidansean.com/ascii_art/">Live page</a>
-<a href="https://github.com/aidansean/apollonian">GitHub repository</a>
+<a href="https://github.com/aidansean/ascii_art">GitHub repository</a>
 
 <h3>Overview</h3>
 
@@ -25,7 +25,6 @@ where \(r_i^s(c)\) is the r value of the \(i\)th pixel in the source image (char
 This character then gets drawn to a large canvas for graphical output, added to a <code>span</code> element for textual output, and added to a <code>textarea</code> element for HTML output.
 
 <h3>Challenges</h3>
-
 <dl>
 <dt><em>Challenge</em>: The versatility of the tool is limited by the same origin policy restrictions, meaning that currently users can only download image generated from sources files on the same server.</dt>
 

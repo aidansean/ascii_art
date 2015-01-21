@@ -186,9 +186,9 @@ function get_pixels(u,v,w,h,data,c_w){
     pixels.push([]) ;
     for(var j=0 ; j<w ; j++){
       var k = (c_w*(i+v)+(j+u))*4 ;
-      var r = data.data[k+0]
-      var g = data.data[k+1]
-      var b = data.data[k+2]
+      var r = data.data[k+0] ;
+      var g = data.data[k+1] ;
+      var b = data.data[k+2] ;
       pixels[i].push([r,g,b]) ;
     }
   }
@@ -205,9 +205,9 @@ function update_rectangle(u,v,w,h){
   var b = 0 ;
   for(var i=0 ; i<h ; i++){
     for(var j=0 ; j<w ; j++){
-      r += pixels[i][j][0]
-      g += pixels[i][j][1]
-      b += pixels[i][j][2]
+      r += pixels[i][j][0] ;
+      g += pixels[i][j][1] ;
+      b += pixels[i][j][2] ;
     }
   }
   r /= (h*w) ;
