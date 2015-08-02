@@ -3,11 +3,15 @@ from project_module import project_object, image_object, link_object, challenge_
 p = project_object('ascii_art', 'ASCII art generator')
 p.domain = 'http://www.aidansean.com/'
 p.path = 'ascii_art'
-p.preview_image_ = image_object('http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg', 408, 287)
+p.preview_image    = image_object('%s/images/project.jpg'   %p.path, 150, 250)
+p.preview_image_bw = image_object('%s/images/project_bw.jpg'%p.path, 150, 250)
+p.folder_name = 'aidansean'
 p.github_repo_name = 'ascii_art'
 p.mathjax = True
+p.tags = 'Images,Art'
+p.technologies = 'CSS,HTML,JavaScript,canvas'
 p.links.append(link_object(p.domain, 'ascii_art/', 'Live page'))
-p.introduction = 'After talking to a friend who suggested I write a text based adventure game I decided could use a way to generate graphics that could be displayed as text.  To achieve this I used the HTML canvas to analyse images and comapared the distribution of colours with various characters, providing graphical, textual, and HTML outputs.'
+p.introduction = 'After talking to a friend who suggested I write a text based adventure game, I decided that it would be useful to develop a way to generate graphics that could be displayed as text.  To achieve this I used the HTML canvas to analyse images and comapared the distribution of colours with various characters, providing graphical, textual, and HTML outputs.'
 p.overview = '''The tool allows the user to choose various character sets for processing the images, including particles for images related to particle physics. The user can also choose which display modes to use, including "colour", "black and white", "red green, and blue", "pixelate", "Matrix".
 
 There are two rules for determining which characters to use, which are "parsimony", and "random". Parsimony chooses a single character of a single colour that best matches the local pixels.

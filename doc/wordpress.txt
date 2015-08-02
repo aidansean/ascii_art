@@ -1,6 +1,6 @@
 [mathjax]
 
-After talking to a friend who suggested I write a text based adventure game I decided could use a way to generate graphics that could be displayed as text.  To achieve this I used the HTML canvas to analyse images and comapared the distribution of colours with various characters, providing graphical, textual, and HTML outputs.
+After talking to a friend who suggested I write a text based adventure game, I decided that it would be useful to develop a way to generate graphics that could be displayed as text.  To achieve this I used the HTML canvas to analyse images and comapared the distribution of colours with various characters, providing graphical, textual, and HTML outputs.
 
 <h3>Links</h3>
 

@@ -1,12 +1,20 @@
 <?php
-$title = 'ASCII art gallery' ;
+$title = 'ASCII art' ;
 $stylesheets = array('style.css') ;
-include($_SERVER['FILE_PREFIX'] . '/_core/preamble.php') ;
+include_once('project.php') ;
+include_once($_SERVER['FILE_PREFIX'] . '/_core/preamble.php') ;
 ?>
   <div class="right">
     <h3>About this page</h3>
     <div class="blurb">
-      <p>This page showcases the fruits of an ASCII art generator I wrote.  Click on the images for larger versions.</p>
+      <p>After talking to a friend who suggested I write a text based adventure game I decided could use a way to generate graphics that could be displayed as text.  To achieve this I used the HTML canvas to analyse images and compared the distribution of colours with various characters, providing graphical, textual, and HTML outputs.</p>
+      
+      <p>The tool allows the user to choose various character sets for processing the images, including particles for images related to particle physics. The user can also choose which display modes to use, including "colour", "black and white", "red, green, and blue", "pixelate", and "Matrix".  There are two rules for determining which characters to use, which are "parsimony", and "random". Parsimony chooses a single character of a single colour that best matches the local pixels.  To find out more, read the <a href="http://aidansean.com/projects/?tag=ascii_art">blog posts</a> or visit the <a href="https://github.com/aidansean/ascii_art">GitHub page.</a></p>
+    </div>
+    
+    <div class="right">  
+      <h3>The gallery</h3>
+      <p>This page contains images that were made with the tool.  Click on the images for larger versions.</p>
 
       <table>
         <thead>
@@ -115,7 +123,7 @@ include($_SERVER['FILE_PREFIX'] . '/_core/preamble.php') ;
         </thead>
         <tbody>
           <tr>
-            <td class="ascii"><a href="images/wmap.gif"><img src="images/thumbnails/wmap.gif" alt="Source image" width="256px" height="140px"/></a></td>
+            <td class="ascii"><a href="images/wmap.jpg"><img src="images/thumbnails/wmap.jpg" alt="Source image" width="256px" height="140px"/></a></td>
             <td class="ascii"><a href="images/wmap.png"><img src="images/thumbnails/wmap.png" alt="Source image" width="256px" height="140px"/></a></td>
           </tr>
         </tbody>

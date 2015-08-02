@@ -87,6 +87,8 @@ function start(){
   context_ascii = canvas_ascii.getContext('2d') ;
   Get('div_canvas_ascii_wrapper').appendChild(canvas_ascii) ;
   
+  Get('p_image_url').innerHTML = 'URL: ' + img_url ;
+  
   var img = document.getElementById('img_source') ;
   img.src = img_url ;
   img.onload = function(){

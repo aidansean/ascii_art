@@ -3,12 +3,13 @@ $title = 'ASCII art gallery' ;
 $stylesheets = array('style.css') ;
 $reset_css = true ;
 $js_scripts = array('ascii.js') ;
-include($_SERVER['FILE_PREFIX'] . '/preamble.php') ;
+include($_SERVER['FILE_PREFIX'] . '/_core/preamble.php') ;
 ?>
   <div class="right">
     <h3>About this page</h3>
     <div class="blurb">
       <p>This page is intended to turn an image into ASCII art using the magic of witchcraft.</p>
+      <p id="p_image_url"></p>
     </div>
   </div>
     
@@ -24,4 +25,4 @@ include($_SERVER['FILE_PREFIX'] . '/preamble.php') ;
     </div>
   </div>
 
-<?php ($_SERVER['FILE_PREFIX'] . '/foot.php') ;
+<?php foot() ;
