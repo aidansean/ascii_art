@@ -141,4 +141,4 @@ include_once($_SERVER['FILE_PREFIX'] . '/_core/preamble.php') ;
     </div>
   </div>
 
-<?php foot() ;
+<?php foot() ;?>

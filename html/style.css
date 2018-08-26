@@ -1,4 +1,4 @@
-canvas#canvas_image, canvas#canvas_ascii, pre#pre_art{
+canvas, pre#pre_art{
   margin : 5px ;
   border : 1px solid black ;
 }
@@ -46,8 +46,23 @@ table{
   border-collapse : collapse ;
   width : 750px ;
   margin : auto ;
+  border: 1px solid black;
+}
+th {
+  background: black;
+  color: white;
+  padding: 0.25em;
+}
+thead th {
+  text-align: center;
+}
+tbody th {
+  padding-right: 1em;
 }
 img{
   margin : 0px ;
 }
-
+input, select, button {
+  width: 200px;
+  font-size: 14pt;
+}
