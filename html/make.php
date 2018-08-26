@@ -22,7 +22,7 @@ include($_SERVER['FILE_PREFIX'] . '/_core/preamble.php') ;
           <thead>
             <tr>
               <th>Parameter</th>
-              <th>Value</th
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
@@ -65,4 +65,4 @@ include($_SERVER['FILE_PREFIX'] . '/_core/preamble.php') ;
     </div>
   </div>
 
-<?php foot() ;?>
+<?php foot() ;

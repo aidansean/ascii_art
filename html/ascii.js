@@ -131,7 +131,7 @@ function AsciiManager() {
             option.value = character_rule;
             option.innerHTML = character_rule;
             select_rule.appendChild(option);
-        });    
+        });
     };
 
     self.change_parameters = function () {
@@ -422,7 +422,7 @@ function AsciiManager() {
         var background_string = "rgb(" + bkg[0] + "," + bkg[1] + "," + bkg[2] + ")";
 
         if (self.character_rule === "parsimony") {
-            Object.keys(self.characters).forEach(function (index){
+            Object.keys(self.characters).forEach(function (index) {
                 var character = self.characters[index];
                 var data_ascii = null;
                 var tmp_pixels = null;
@@ -434,7 +434,7 @@ function AsciiManager() {
                 var j = 0;
                 var f = 3;
 
-                self.context_ascii.fillStyle = background_string
+                self.context_ascii.fillStyle = background_string;
                 self.context_ascii.fillRect(0, 0, f * w, f * h);
 
                 self.context_ascii.fillStyle = fillStyle;
@@ -484,10 +484,6 @@ function AsciiManager() {
 
     self.update_rectangle = function (u, v, w, h) {
         var pixels = null;
-        var i = 0;
-        var j = 0;
-        var k = 0;
-        var g_new = 0;
 
         var best_character = "@";
         var rgb = null;
@@ -502,7 +498,7 @@ function AsciiManager() {
         rgb = self.get_rgb_from_rectangle(pixels, w, h);
 
         if (self.mode === "pixelate") {
-           self.pixelate_rectangle(u, v, w, h, rgb);
+            self.pixelate_rectangle(u, v, w, h, rgb);
             return;
         }
 
