@@ -62,6 +62,7 @@ function AsciiManager() {
     };
     self.modes = ["colour", "bw", "rgb", "pixelate", "matrix"];
     self.character_rules = ["parsimony", "random"];
+    self.images = ["atlas.jpg", "cern.jpg", "dunegon.jpg", "escher.jpg", "liberty.jpg", "spiral.jpg", "stairs.jpg"];
 
     self.mode = self.choose_value_by_uri("mode", "colour", self.modes);
     self.character_set = self.choose_value_by_uri("char_set", "numbers", Object.keys(self.character_sets));
@@ -110,6 +111,7 @@ function AsciiManager() {
         var select_mode = self.get("select_mode");
         var select_charset = self.get("select_charset");
         var select_rule = self.get("select_rule");
+        var select_image = self.get("select_image");
 
         Object.keys(self.modes).forEach(function (index) {
             var mode = self.modes[index];
@@ -132,6 +134,13 @@ function AsciiManager() {
             option.innerHTML = character_rule;
             select_rule.appendChild(option);
         });
+        Object.keys(self.images).forEach(function (index) {
+            var image_name = self.images[index];
+            var option = document.createElement("option");
+            option.value = image_name;
+            option.innerHTML = image_name;
+            select_image.appendChild(option);
+        });
     };
 
     self.change_parameters = function () {
@@ -141,12 +150,17 @@ function AsciiManager() {
         self.characters = self.character_sets[self.get("select_charset").value];
         self.rule = self.get("select_rule").value;
         self.scale = parseFloat(self.get("input_scale").value);
+        self.image_url = "images/" + self.get("select_image").value;
 
         self.counter = 0;
         self.kill = false;
         self.rows = [];
         self.current_row = [];
-        window.setTimeout(self.process_image, self.delay);
+
+        self.image.src = self.image_url;
+        self.image.onload = function () {
+            self.process_image();
+        };
     };
 
     self.setup_ascii_canvas = function () {
@@ -180,10 +194,6 @@ function AsciiManager() {
         // Process the image.
         self.get("p_image_url").textContent = "URL: " + self.image_url;
         self.image = self.get("img_source");
-        self.image.src = self.image_url;
-        self.image.onload = function () {
-            self.process_image();
-        };
     };
 
     self.process_image = function () {

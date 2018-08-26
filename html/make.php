@@ -27,6 +27,10 @@ include($_SERVER['FILE_PREFIX'] . '/_core/preamble.php') ;
           </thead>
           <tbody>
             <tr>
+              <th>Image</th>
+              <td><select id="select_image"></select></td>
+            </tr>
+            <tr>
               <th>Scale</th>
               <td><input id="input_scale" value="1" /></td>
             </tr>
